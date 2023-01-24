@@ -1,0 +1,50 @@
+{
+  "name": "razorpay-react-demo",
+  "version": "1.0.1",
+  "description": "A razorpay demo application to checkout payments and refunds from and to client",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/webpack-dev-server",
+    "build": "./node_modules/.bin/webpack",
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shashank7200/razorpay-react-demo.git"
+  },
+  "keywords": [
+    "razorpay",
+    "payment",
+    "refunds",
+    "demo",
+    "nodejs",
+    "reactjs"
+  ],
+  "author": "Shashank Shekhar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shashank7200/razorpay-react-demo/issues"
+  },
+  "homepage": "https://github.com/shashank7200/razorpay-react-demo",
+  "devDependencies": {
+    "@webpack-cli/serve": "^1.7.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.7",
+    "dotenv-webpack": "^1.5.4",
+    "html-webpack-plugin": "^4.5.2",
+    "style-loader": "^0.19.0",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "engines": {
+    "node": "16.x"
+  }
+}
